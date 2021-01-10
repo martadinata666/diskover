@@ -53,12 +53,10 @@ The architectures supported by this image are:
 | Architecture | Tag |
 | :----: | --- |
 | x86-64 | amd64-latest |
-| arm64 | arm64v8-latest |
-| armhf | arm32v7-latest |
 
 
 ## Usage
-
+### This is a fork from LSIO with hotdirs and finddupes enabled.
 Here are some example snippets to help you get started creating a container.
 
 ### docker-compose ([recommended](https://docs.linuxserver.io/general/docker-compose))
@@ -296,4 +294,3 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 * **12.04.19:** - Rebase to Alpine 3.9.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **01.11.18:** - Initial Release.
-# Diskover Disk Analyzer
