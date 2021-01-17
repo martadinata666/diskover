@@ -279,13 +279,6 @@ docker build \
   -t ghcr.io/linuxserver/diskover:latest .
 ```
 
-The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
-```
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
-```
-
-Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
-
 ## Versions
 
 * **19.11.20:** - Fix pip packages.
